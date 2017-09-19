@@ -1,0 +1,15 @@
+Although I did learn some HTML, CSS, and JavaScript in high school, I never felt
+like I really had learned enough about it. I still found myself having to look
+up many things and having to import other people's code to make my websites
+look like I wanted them to.
+
+Ideally in this class I would like to learn how to get a better handle on
+creating webpages, so I can do more advanced visuals on my own without as much
+reliance on the Internet. I would also like to learn how to do custom styles
+on some websites that I use that allow me to do that.
+
+Additionally, if recent happenings with DU WiFi have taught me anything, I would
+like to be able to make webpages that work well on extremely slow networks,
+such as DU WiFi. I also think that it will be increasingly more important in the
+current market for me to have a professional and accurate personal website when
+people look me up.
