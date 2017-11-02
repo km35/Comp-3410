@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<style type="text/css">
+	em:first-of-type{
+		text-decoration: overline !important;
+		overflow: scroll;
+		width: 500px;
+		height: 50px;
+	}
+	a:link{
+		text-decoration: none;
+	}
+	a:hover{
+		color: green;
+	}
+	:not(a){
+		color: blue;
+	}
+	p:first-letter{
+		font-size: 2em;
+	}
+	p:after{
+		content: "After p";
+	}
+	a[href="3"]{
+		text-decoration: line-through;
+	}
+	p {
+		background-image: url(pie.jpg);
+		background-repeat: no-repeat;
+		background-position: right;
+		background-attachment: scroll;
+	}
+	body{
+		background: white url(flamingo.png) no-repeat top fixed;
+	}
+	#a2{
+		background-image: linear-gradient(red blue)
+	}
+	br{
+		border: solid thin blue;
+	}
+</style>
+<a href="1" id=>1</a>
+<br>
+<a href="2" id="a2">2</a>
+<p>
+	<em>elements
+Use the background-image property to add a background to an HTML element
+Use the background-repeat property to change the repeat value of a background image on an HTML element
+Use the background-position property to chnage the origin location of a background image on an HTML element
+Use the background-attachment property to change the scroll behavior of the background image of an HTML element with sufficient content that it is scrollable
+Use the background shorthand property to add a background image to an HTML element (all optional properties must be specified)
+Graduate students only: Add multiple background images to an HTML element using the background property so that all images are at least partially visible
+Create one of linear-gradient() or radial-gradient() gradients within an HTML element
+Set the width and height of an HTML element using a box-sizing of content-box
+Set the width and height of an HTML element using a box-sizing of border-box
+Change the overflow property of an HTML element with content sufficient to be scrollable to something other than the default value
+Set the padding of an HTML element
+Change the border style, width, and color of an HTML element
+Create a border on an HTML element that is either rounded or elliptical 
+Extra Credit: Create a border-image for an HTML element that correctly uses the background image and get 2 bonus points!</em>
+	<br>
+	<a href="3">3</a>
+</p>
+</body>
+</html>
