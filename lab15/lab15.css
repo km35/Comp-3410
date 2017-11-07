@@ -1,0 +1,31 @@
+img{
+	margin: 2em;
+}
+div#marginDiv{
+	margin: 20px;
+	display: block;
+	box-shadow: 8px 8px #CCC;
+	float: right;
+	position: absolute;
+}
+p#thisP{
+	display: inline;
+	clear: left;
+}
+a#overlapA{
+	float: right;
+	position: relative;
+	top: 200%;
+}
+nav{
+	float: right;
+	position: fixed;
+	left: 90%;
+	background-color: lightblue;
+}
+p#overlapP{
+	float: right;
+	position: fixed;
+	left: 90%;
+	z-index: -10;
+}
