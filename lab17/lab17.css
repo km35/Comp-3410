@@ -1,0 +1,42 @@
+#map{
+	perspective: 600;
+	transform: rotateX(66deg);
+	max-width: 100%;
+}
+#anim{
+	animation: anim 10s linear infinite forwards;
+	max-width: 100%
+}
+@keyframes anim{
+	0%{transform: rotateX(0deg);}
+	50%{transform: rotateX(66deg);}
+	100%{transform: rotateX(0deg);}
+}
+form{
+	background-color: lightblue;
+	border: 2px solid black;
+	border-radius: 7px;
+}
+fieldset{
+	border-radius: 5px;
+}
+input{
+	background-color: lightblue;
+}
+textarea{
+	overflow: hidden;
+}
+#table1{
+	border-collapse: separate;
+	empty-cells: hide;
+	float: left;
+}
+#table2{
+	border-collapse: collapse;
+	float: right;
+}
+@media screen and (min-width: 500px){
+	table{
+		float: left;
+	}
+}
