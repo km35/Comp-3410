@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Roll stats for a new character!</title>
+</head>
+<body id="dndbody">
+	<link rel="stylesheet" type="text/css" href="generalcss.css">
+	<script src="generaljs.js"></script>
+	<div id="navbar">
+	<a href="home.html">
+	<div id="home" class="navigation">
+		<img src="dndlogo.png" id="dndlogo">
+	</div>
+	</a>
+	<a href="dnd.html">
+	<div id="dnd" class="navigation">
+		Stats
+	</div>
+	</a>
+	<!--<a href="mafia.html">
+	<div id="mafia" class="navigation">
+		Creation
+	</div>
+	</a>-->
+	<a href="overwatch.html">
+	<div id="overwatch" class="navigation">
+		Arcana
+	</div>
+	</a>
+	<a href="roller.html">
+	<div id="spells" class="navigation">
+		Roller
+	</div>
+	</a>
+	</div>
+	<div id="banner">
+			<img src="bgtrees.jpg" width="100%" height="100%">
+	</div>
+	<div class="content">
+		<br>
+		<br>
+		<br>
+		<form onsubmit="return stats()">
+			<input type="radio" name="typeradio" id="threeroll" onclick="">3d6
+			<input type="radio" name="typeradio" id="fourroll">4d6
+			<input type="radio" name="typeradio" id="fiveroll">5d6
+			<br>
+			<input type="checkbox" name="arrayroll" id="arrayroll"> 3x3 Array
+			<br>
+			<button type="button" name="submit" onclick="return stats()" id="submitbutton"> Submit</button>
+		</form>
+		<br>
+		<div id="statsholder">
+			<div id="statshere">
+				
+			</div>
+			<table id="arraystats">
+				<tr>
+					<th>
+						
+					</th>
+					<th>
+						INT
+					</th>
+					<th>
+						WIS
+					</th>
+					<th>
+						CHA
+					</th>
+				</tr>
+				<tr>
+					<th>
+						STR
+					</th>
+					<td id="strint">
+						
+					</td>
+					<td id="strwis">
+						
+					</td>
+					<td id="strcha">
+						
+					</td>
+				</tr>
+				<tr>
+					<th>
+						DEX
+					</th>
+					<td id="dexint">
+						
+					</td>
+					<td id="dexwis">
+						
+					</td>
+					<td id="dexcha">
+					</td>
+				</tr>
+				<tr>
+					<th>
+						CON
+					</th>
+					<td id="conint"></td>
+					<td id="conwis"></td>
+					<td id="concha"></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
